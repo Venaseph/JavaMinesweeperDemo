@@ -1,0 +1,5 @@
+- The upper left corner contains the number of bombs left to find. The number will update
+  as you mark and unmark squares.
+
+- The upper right corner contains a time counter.
+
