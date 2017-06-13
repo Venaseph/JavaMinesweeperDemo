@@ -1,0 +1,34 @@
+MineSweeper Version: Propane 1.0
+CP337 Java Programming Spring 2017
+Chris Peragine
+
+Microsoft Minesweeper (formerly Minesweeper) is a minesweeper computer game created by 
+Curt Johnson, originally for OS/2, and ported to Microsoft Windows by Robert Donner, 
+both Microsoft employees at the time. First officially released as part of the Microsoft 
+Entertainment Pack 1 in 1990, it was included in the standard install of Windows 3.1 in 
+1992, replacing Reversi from Windows 3.0. Microsoft Minesweeper has been included in all 
+subsequent Windows releases until Windows 8. An updated version included in Windows Vista 
+and Windows 7 was developed by Oberon Media. In Windows 8 and later the game is not 
+included, but a free equivalent developed by Arkadium it is available from the 
+Windows Store.
+
+The goal of the game is to uncover all the squares that do not contain mines without being 
+"blown up" by clicking on a square with a mine underneath. The location of the mines is 
+discovered by a process of logic. Clicking on the game board will reveal what is hidden 
+underneath the chosen square or squares (a large number of blank squares may be revealed in 
+one go if they are adjacent to each other). Some squares are blank but some contain numbers 
+(1 to 8), each number being the number of mines adjacent to the uncovered square. To help 
+avoid hitting a mine, the location of a suspected mine can be marked by flagging it with the 
+right mouse button. The game is won once all blank squares have been uncovered without 
+hitting a mine, any remaining mines not identified by flags being automatically flagged by 
+the computer. However, in the event that a game is lost and the player mistakenly flags a 
+safe square, that square will either appear with a red X covering the mine (denoting it as 
+safe), or just a red X (also denoting it as safe). The game board comes in three set 
+sizes: beginner, intermediate, and expert, though a custom option is available as well.
+In early versions of the game, a cheat code let players peek beneath the tiles.
+
+Microsoft removed Minesweeper from Windows 8 and instead published a free equivalent on its 
+Windows Store. The new version is developed by Arkadium and is ad-supported. The initial 
+release was supported by 30 second video ads. Later releases had monthly and annual 
+subscription options to remove the ads. Multiple news outlets criticized the change as greedy.
+This version updates both motifs. Daily challenges and an adventure mode were also added.
