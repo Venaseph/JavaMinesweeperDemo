@@ -137,7 +137,7 @@ public class MineSweeper extends JFrame implements MouseListener{
         about.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "About",0,0,BFF));  //set border with customer font
         about.setFont(new Font("Arial", Font.PLAIN, 12)); // adjust font in about textarea
         about.setBackground(BGC);  // set background to match rest of app
-        readTxt("/texts/about.txt", about);
+        readTxt("src/texts/about.txt", about);
         tfp5.add(about);  // adds to tab panel
     }
     
@@ -148,7 +148,7 @@ public class MineSweeper extends JFrame implements MouseListener{
         instruct1.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Instructions For MineSweeper",0,0,BFF));
         instruct1.setFont(new Font("Arial", Font.PLAIN, 12));
         instruct1.setBackground(BGC);
-        readTxt("/texts/instruct1.txt", instruct1);
+        readTxt("src/texts/instruct1.txt", instruct1);
         tfp4.add(instruct1);
         
         instruct2 = new JTextArea();
@@ -156,7 +156,7 @@ public class MineSweeper extends JFrame implements MouseListener{
         instruct2.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Finer Details Of Sweeping",0,0,BFF));
         instruct2.setFont(new Font("Arial", Font.PLAIN, 12));
         instruct2.setBackground(BGC);
-        readTxt("/texts/instruct2.txt", instruct2);
+        readTxt("src/texts/instruct2.txt", instruct2);
         tfp4.add(instruct2);
         
         instruct3 = new JTextArea();
@@ -164,7 +164,7 @@ public class MineSweeper extends JFrame implements MouseListener{
         instruct3.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "The Status Indicators Do What?",0,0,BFF));
         instruct3.setFont(new Font("Arial", Font.PLAIN, 12));
         instruct3.setBackground(BGC);
-        readTxt("/texts/instruct3.txt", instruct3);
+        readTxt("src/texts/instruct3.txt", instruct3);
         tfp4.add(instruct3);
     }
     
@@ -236,10 +236,10 @@ public class MineSweeper extends JFrame implements MouseListener{
         
         // Add pane to warn game reset on change
         
-        soundsPane = new JPanel(new FlowLayout());  // difficulty pane
+        soundsPane = new JPanel(new FlowLayout());  // sound pane
         soundsPane.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Sound Settings:",0,0,BFF));
         soundsPane.setBackground(BGC);
-        soundsGroup = new ButtonGroup(); // Button Group for Difficulty Radio Buttons
+        soundsGroup = new ButtonGroup(); // Button Group for Sound On/Off
         soundsRadio = new JRadioButton[2];
         soundsTitles = new String[]{"Sounds On", "Sounds Off"};
         for(int i = 0; i < soundsRadio.length; i++) {
